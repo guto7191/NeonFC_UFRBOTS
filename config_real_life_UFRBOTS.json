@@ -1,0 +1,34 @@
+{
+    "network" : {
+        "multicast_ip": "224.5.23.2",
+        "referee_ip": "224.5.23.3",
+        "host_ip": "localhost",
+        "blue_port": 30011,
+        "yellow_port": 30012,
+        "vision_port": 10005,
+        "command_port": 20011,
+        "replacer_port": 10004,
+        "referee_port": 10003,
+        "api_address": "127.0.0.1",
+        "api_port" : 43220,
+        "api_recv_port": 43221
+    },
+    "match" : {
+        "team_side": "left",
+        "team_color": "yellow",
+        "coach_name": "RSM_2023",
+        "category": "3v3",
+        "robot_ids": [
+            1,
+            2,
+            3
+        ]
+    },
+    "comm": {
+        "comm_port": "/dev/ttyUSB0",
+        "baud_rate": 115200
+    },
+    "referee": false,
+    "data_sender": false,
+    "api": true
+}
